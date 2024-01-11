@@ -3,6 +3,9 @@ this is the index.md file
 >block
 >quote
 
+##should link other lab reports?
+[Link](https://en.wikipedia.org/wiki/Link)
+
 1. 1
 2. 2
 3. 3
@@ -10,7 +13,6 @@ this is the index.md file
 ```
 #woah
 code block
-**bold?**
 ```
 
 ![Image](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png)
