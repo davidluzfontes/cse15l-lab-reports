@@ -1,5 +1,5 @@
-#Bindex
-##bindex
+# Bindex
+## bindex
 
 
 this is the `bindex.md` file
