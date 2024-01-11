@@ -38,6 +38,26 @@
 3. With a path to a file as an argument
 ![image](https://github.com/davidluzfontes/cse15l-lab-reports/assets/149021334/ade99e5e-650c-4553-b50a-c15229402fc9)
 - The working directory was `/home/lecture1`
-- - I provided the argument `Hello.java`, so the output was a list of all the files in path `/home/lecture1/Hello.java`, which is just the file `Hello.java`
+- I provided the argument `Hello.java`, so the output was a list of all the files in path `/home/lecture1/Hello.java`, which is just the file `Hello.java`
 - It was not an error
 
+
+## Using the `cat` command 
+
+1. With no arguments
+![image](https://github.com/davidluzfontes/cse15l-lab-reports/assets/149021334/76d5251f-530d-4361-bda1-8a3807666579)
+- The working directory was `/home/lecture1`
+- The output was taking user input and printing it out. This happens until the user closes it using `^C`
+- It was not an error
+
+2. With a path to a directory as an argument
+![image](https://github.com/davidluzfontes/cse15l-lab-reports/assets/149021334/af015823-4be9-4fe2-b8df-141210c85347)
+- The working directory was `/home/lecture1`
+- I provided the argument `messages`, which is a directory, so the output was an error message
+- It was an error message, because `cat` was expecting a file as an argument, but I provided a directory
+
+3. With a path to a file as an argument
+![image](https://github.com/davidluzfontes/cse15l-lab-reports/assets/149021334/ea6df5e9-3663-46f9-b32d-1b479940415a)
+- The working directory was `/home/lecture1`
+- I provided the argument `Hello.java`, so the output was printing out the contents of the file onto the terminal.
+- It was not an error
