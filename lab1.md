@@ -1,6 +1,6 @@
 # Lab Report 1  - Remote Acess and FileSystem
 
-## Using the ```cd``` command
+## Using the `cd` command
 
 1. With no arguments
 ![image](https://github.com/davidluzfontes/cse15l-lab-reports/assets/149021334/0c4a86ab-642b-4323-8377-326e9b31a9f9)
@@ -21,7 +21,7 @@
 - The output is an error because the argument provided was a file instead of a directory
 
 
-## Using the ```ls`` command 
+## Using the `ls` command 
 
 1. With no arguments
 ![image](https://github.com/davidluzfontes/cse15l-lab-reports/assets/149021334/695551f0-a840-4883-950a-107c3a2c847f)
