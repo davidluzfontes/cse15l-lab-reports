@@ -3,7 +3,7 @@ this is the index.md file
 >block
 >quote
 
-##should link other lab reports?
+## should link other lab reports?
 
 [Link](https://en.wikipedia.org/wiki/Link)
 
