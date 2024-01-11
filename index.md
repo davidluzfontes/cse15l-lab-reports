@@ -7,6 +7,7 @@ this is the index.md file
 
 [Link](https://en.wikipedia.org/wiki/Link)
 
+[Bindex](https://davidluzfontes.github.io/cse15l-lab-reports/bindex.html)
 
 
 1. 1
