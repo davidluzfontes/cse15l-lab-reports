@@ -4,7 +4,10 @@ this is the index.md file
 >quote
 
 ##should link other lab reports?
+
 [Link](https://en.wikipedia.org/wiki/Link)
+
+
 
 1. 1
 2. 2
