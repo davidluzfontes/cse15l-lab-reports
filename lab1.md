@@ -29,21 +29,21 @@
 1. With no arguments
 ![image](https://github.com/davidluzfontes/cse15l-lab-reports/assets/149021334/695551f0-a840-4883-950a-107c3a2c847f)
 - The working directory was `/home/lecture1`
-- The output was a list of all the files in the directory`/home/lecture1`
+- The output was a list of everything in the directory`/home/lecture1`
 - It was not an error
 
 
 2. With a path to a directory as an argument
 ![image](https://github.com/davidluzfontes/cse15l-lab-reports/assets/149021334/2fd25009-d342-45a8-b58b-3df98d6de87a)
 - The working directory was `/home/lecture1`
-- I provided the argument `messages`, so the output was a list of all the files in the directory`/home/lecture1/messages`, but without changing the working directory
+- I provided the argument `messages`, so the output was a list of everything in the directory`/home/lecture1/messages`, but without changing the working directory
 - It was not an error
 
 
 3. With a path to a file as an argument
 ![image](https://github.com/davidluzfontes/cse15l-lab-reports/assets/149021334/ade99e5e-650c-4553-b50a-c15229402fc9)
 - The working directory was `/home/lecture1`
-- I provided the argument `Hello.java`, so the output was a list of all the files in path `/home/lecture1/Hello.java`, which is just the file `Hello.java`
+- I provided the argument `Hello.java`, so the output was a list of everything in the path `/home/lecture1/Hello.java`, which is just the file `Hello.java`
 - It was not an error
 
 
