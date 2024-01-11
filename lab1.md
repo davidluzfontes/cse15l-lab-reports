@@ -34,7 +34,7 @@
 
 
 2. With a path to a directory as an argument
-![image](https://github.com/davidluzfontes/cse15l-lab-reports/assets/149021334/ba0f61e5-5a40-45f0-9a59-c7c38b0c561a)
+![image](https://github.com/davidluzfontes/cse15l-lab-reports/assets/149021334/2fd25009-d342-45a8-b58b-3df98d6de87a)
 - The working directory was `/home/lecture1`
 - I provided the argument `messages`, so the output was a list of all the files in the directory`/home/lecture1/messages`, but without changing the working directory
 - It was not an error
