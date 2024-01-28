@@ -1,7 +1,7 @@
 # Lab Report 2  - Servers and SSH Keys
 
 
-##Part 1 - Chat Server
+## Part 1 - Chat Server
 
 **ChatServer code**
 ![code](https://github.com/davidluzfontes/cse15l-lab-reports/assets/149021334/0e25060c-9298-49d2-b92a-2d3ccc2937c7)
