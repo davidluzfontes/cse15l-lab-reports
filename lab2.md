@@ -27,4 +27,19 @@ which is a field part of the `Handler` class that stores the message history. `m
     - In the first screenshot, `messageHistory` starts as `""` and ends as `"Me: Hello\n"`
     - In the second screnshot, `messageHistory` starts as `"Me: Hello\n"` and ends as `"Me: Hello\nWife: Hi\n"`
 
+## Part 2 - SSH
+
+Path to the private key on my computer
+![image](https://github.com/davidluzfontes/cse15l-lab-reports/assets/149021334/0259918b-34a9-4755-a86b-5ba8a411dcae)
+
+Path to public key on ieng6
+![image](https://github.com/davidluzfontes/cse15l-lab-reports/assets/149021334/25a21984-3964-4619-9d71-f3fe9ebcbbe0)
+
+Login without using my password
+![image](https://github.com/davidluzfontes/cse15l-lab-reports/assets/149021334/6ab82e46-c753-444a-b849-1f841ace23f8)
+
+## Part 3 - Conclusion
+Something I learned from the lab during week 2 is just how many ports are already registered. When following the lab document, I was told to run my server on port `6041`, `6000` for lab room B260 + `41` for the number of my computer. After failing to open my server, I asked a tutor for help, and he told me that port was probably already assigned to something. Upon further research, we found that all of the ports from `6000` to `6063`, which everyone in the room would have to use, were already assigned. 
+![image](https://github.com/davidluzfontes/cse15l-lab-reports/assets/149021334/4645d073-5a1c-4dd3-8e04-44edac0edc96)
+
 
