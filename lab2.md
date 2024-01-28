@@ -16,7 +16,7 @@ and handles all of the requests sent by the user.
 - Then, the `getPath()` method gets the path after the url, the portion after the `/`. This is used to determine if the user
 went to the `/add-message` path.
 - Then the `getQuery()` method gets called, setting everything after the `?` to `String query`.
-- The `split(String regex)` method is called several times splitting the query into the parts we want to use.
+- The `split(String regex)` method is called several times splitting `query` into the parts we want to use.
 first, it is split at the `&` to separate the user from the message, then, split at the `=` to get the message content `message`
 and the name of the user `user`.
     - In the first screenshot, `s=Hello&user=Me` gets split so that `user` is `Me` and `message` is `Hello`
