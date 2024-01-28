@@ -29,7 +29,7 @@ which is a field part of the `Handler` class that stores the message history. `m
 
 ## Part 2 - SSH
 
-Path to the private key on my computer
+Path to the private key on my computer                                              
 ![image](https://github.com/davidluzfontes/cse15l-lab-reports/assets/149021334/0259918b-34a9-4755-a86b-5ba8a411dcae)
 
 Path to public key on ieng6
