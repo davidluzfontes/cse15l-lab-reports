@@ -10,7 +10,8 @@
 **Using /add-message**
 ![image](https://github.com/davidluzfontes/cse15l-lab-reports/assets/149021334/f02d662b-1b0b-40e8-a500-aad6fe8a9e79)
 ![image](https://github.com/davidluzfontes/cse15l-lab-reports/assets/149021334/c5884390-bb6c-4b77-975e-68736f710cac)
-- Both screenshots call the same methods: `handleRequest(URI url`, `getPath()`,`getQuery`, and  `split(String regex)`.
+- The usage of /add-message in both screenshots call the same methods: `handleRequest(URI url`, `getPath()`,`getQuery`, and  `split(String regex)`.
+
 - The first method called was `handleRequest(URI url)`, which processes the url `url`
 and handles all of the requests sent by the user.
 - Then, the `getPath()` method gets the path after the url, the portion after the `/`. This is used to determine if the user
