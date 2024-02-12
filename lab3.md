@@ -93,7 +93,7 @@ array `arr`. Then the loop can replace the elements in `arr` using the values fr
 ## Part 2 - Researching Commands
 
 
-**Line numbering**` - found using `man grep`
+**Line numbering** - found using `man grep`
 
 The `-n` option makes grep show you the line number for every match that you find. This is useful if you need to then find the expression inside the file, such as to correct a common typo, or just want to go to 
 that place and read more about the context in which the expression was used.
