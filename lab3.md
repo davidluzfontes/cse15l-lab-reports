@@ -221,7 +221,7 @@ $ grep -n ^that technical/government/Env_Prot_Agen/bill.txt
 
 Two regular expressions may be joined by the operator |.
 The resulting regular expression matches any stringmatching either alternate expression.
- *If using basic regular expressions the | operator needs to be prefixed by \.*
+ *If using basic regular expressions the | operator needs to be prefixed by \\.*
 
 
 ```
