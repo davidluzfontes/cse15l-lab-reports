@@ -132,7 +132,7 @@ $ grep -n oxygen technical/biomed/cc3.txt
 ```
 
 
-**Bracket Expressions** found using `man grep`
+**Bracket Expressions** - found using `man grep`
 
 A bracket expression is a list of characters enclosed by [   and   ]. By using that that
 grep will look for any character in that expression. You can use a hyphen to search for a range of
@@ -181,9 +181,17 @@ $ grep " [a-z]en"  technical/biomed/1471-2288-2-4.txt
         split-sample approach tended to underestimate performance,
 ```
 
-**Extended Regular Expressions** found using `man grep`
+**Patern Syntax** found using `man grep` 
+-E Interpret expression as extended regular expressions. Useful for easier customization, such as alternation, concatenation, etc `man grep` for more options.
+-F Interpret expression as fixed strings, not regular expressions. Useful to interpret argument fixed strings
+-G Interpret expression as basic regular expressions, this is the default.
 
-**Alternation** found using `man grep`
+
+```
+
+```
+
+**Alternation** - found using `man grep`
 
 Two regular expressions may be joined by the operator |.
 The resulting regular expression matches any stringmatching either alternate expression.
