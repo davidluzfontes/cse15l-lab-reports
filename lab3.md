@@ -131,4 +131,5 @@ $ grep -n oxygen technical/biomed/cc3.txt
 281:        arrhythmias and compromise oxygen delivery. Hyperactivity
 ```
 
-[[Link](https://www.digitalocean.com/community/tutorials/using-grep-regular-expressions-to-search-for-text-patterns-in-linux)https://www.digitalocean.com/community/tutorials/using-grep-regular-expressions-to-search-for-text-patterns-in-linux]
+
+[[](https://www.digitalocean.com/community/tutorials/using-grep-regular-expressions-to-search-for-text-patterns-in-linux)https://www.digitalocean.com/community/tutorials/using-grep-regular-expressions-to-search-for-text-patterns-in-linux]
