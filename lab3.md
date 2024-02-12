@@ -181,14 +181,29 @@ $ grep " [a-z]en"  technical/biomed/1471-2288-2-4.txt
         split-sample approach tended to underestimate performance,
 ```
 
-**Patern Syntax** found using `man grep` 
--E Interpret expression as extended regular expressions. Useful for easier customization, such as alternation, concatenation, etc `man grep` for more options.
--F Interpret expression as fixed strings, not regular expressions. Useful to interpret argument fixed strings
--G Interpret expression as basic regular expressions, this is the default.
+**Anchoring** found using `man grep` 
+The caret ^ and the dollar sign $ respectively match the empty string at the beginning and end of a line. This is useful if you want to line for expressions at the start or at the end of a line.
 
 
 ```
+$ grep ^this technical/government/Env_Prot_Agen/tech_adden.txt
+this time. The unquantified benefits for ozone and PM fall into two
+this analysis because of modeling and resource limitations. The
+this case, we have a 70 year old individual dying from pneumonia
+this section.
+this analysis.
+```
 
+```
+$ grep ^import ./Server.java
+import java.io.IOException;
+import java.io.OutputStream;
+import java.net.InetSocketAddress;
+import java.net.InetAddress;
+import java.net.URI;
+import com.sun.net.httpserver.HttpExchange;
+import com.sun.net.httpserver.HttpHandler;
+import com.sun.net.httpserver.HttpServer;  
 ```
 
 **Alternation** - found using `man grep`
