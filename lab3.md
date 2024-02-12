@@ -95,8 +95,8 @@ array `arr`. Then the loop can replace the elements in `arr` using the values fr
 
 **Line numbering**` - found using `man grep`
 
-The `-n` options makes grep show you the line number for every match that you find. This is useful if you need to find the expression in a file, such as to make and need to find where that mistake was made, or just want to go to 
-that place and read more about the context in which the word was used.
+The `-n` option makes grep show you the line number for every match that you find. This is useful if you need to then find the expression inside the file, such as to correct a common typo, or just want to go to 
+that place and read more about the context in which the expression was used.
 ```
 $ grep -n that technical/biomed/cc2172.txt
 29:        particularly when 'injurious' ventilatory strategies that
@@ -221,7 +221,7 @@ $ grep -n ^that technical/government/Env_Prot_Agen/bill.txt
 
 Two regular expressions may be joined by the operator |.
 The resulting regular expression matches any stringmatching either alternate expression.
- *If using basic regular expressions the | operator needs to be prefixed by \.
+ *If using basic regular expressions the | operator needs to be prefixed by \.*
 
 
 ```
