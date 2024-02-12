@@ -93,10 +93,9 @@ array `arr`. Then the loop can replace the elements in `arr` using the values fr
 ## Part 2 - Researching Commands
 
 
-`grep -n` - found using `man grep`
+**Line numbering**` - found using `man grep`
 
-This option shows you the line number for every match that you find. This is useful if you need to find the expression in a file, 
-such as to make and need to find where that mistake was made, or just want to go to 
+The `-n` options makes grep show you the line number for every match that you find. This is useful if you need to find the expression in a file, such as to make and need to find where that mistake was made, or just want to go to 
 that place and read more about the context in which the word was used.
 ```
 $ grep -n that technical/biomed/cc2172.txt
@@ -181,8 +180,8 @@ $ grep " [a-z]en"  technical/biomed/1471-2288-2-4.txt
         split-sample approach tended to underestimate performance,
 ```
 
-**Anchoring** found using `man grep` 
-The caret ^ and the dollar sign $ respectively match the empty string at the beginning and end of a line. This is useful if you want to line for expressions at the start or at the end of a line.
+**Anchoring** - found using `man grep` 
+The caret ^ and the dollar sign $ respectively match the empty string at the beginning and end of a line. This is useful if you want to search for expressions at the start or at the end of a line.
 
 
 ```
