@@ -87,5 +87,4 @@ so when the loop tried to access them to replace the values at the end, they wer
 longer their original values.
 
 The fix adresses the issue by creating a temporary array `newArr`, which is identical to the original
-array `arr`. Then the loop can replace the elements in `arr` using the ones from `newArr`, without 
-overwriting them.
+array `arr`. Then the loop can replace the elements in `arr` using the values from `newArr`, which don't change.
