@@ -88,3 +88,47 @@ longer their original values.
 
 The fix adresses the issue by creating a temporary array `newArr`, which is identical to the original
 array `arr`. Then the loop can replace the elements in `arr` using the values from `newArr`, which don't change.
+
+
+## Part 2 - Researching Commands
+
+
+`grep -n` - found using `man grep`
+
+This option shows you the line number for every match that you find. This is useful if you need to find the expression in a file, 
+such as to make and need to find where that mistake was made, or just want to go to 
+that place and read more about the context in which the word was used.
+```bash
+$ grep -n that technical/biomed/cc2172.txt
+29:        particularly when 'injurious' ventilatory strategies that
+31:        ] . Experimental studies suggested that mechanical
+38:        to humans based on the assumption that the effects of
+107:          opt ) was defined as the PEEP that
+248:        max , to a degree similar to that in
+254:        The results of the present study indicate that
+285:        understanding that PEEP at 10 cmH
+308:        oxygen extraction ratio that was sufficient to compensate
+310:        2 that occurred during PEEP titration [
+312:        It is also noteworthy that there may be individual
+349:        our discussion because we believe that pH
+353:        that evaluated the impact of PEEP on splanchnic perfusion
+368:        in that conducted by Kiefer and coworkers).
+374:        above). We acknowledge that in day-to-day clinical
+384:        because some methodological problems, we believe that we
+404:        i , it is conceivable that longer
+408:        Collectively, the present findings indicate that
+416:        vasculature. Nonetheless, the possibility that PEEP can`
+```
+
+```bash
+$ grep -n oxygen technical/biomed/cc3.txt
+6:        Aggressive methods of decreasing oxygen consumption,
+8:        patients with marginal oxygen delivery associated with
+11:        to increase efficiency of oxygen utilization and decrease
+16:        work and oxygen consumption in the face of compromised
+201:          Decreased brain oxygenation initially causes increased
+277:        arrhythmias by increasing myocardial work and oxygen
+281:        arrhythmias and compromise oxygen delivery. Hyperactivity
+```
+
+[[Link](https://www.digitalocean.com/community/tutorials/using-grep-regular-expressions-to-search-for-text-patterns-in-linux)https://www.digitalocean.com/community/tutorials/using-grep-regular-expressions-to-search-for-text-patterns-in-linux]
