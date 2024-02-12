@@ -195,15 +195,27 @@ this analysis.
 ```
 
 ```
-$ grep ^import ./Server.java
-import java.io.IOException;
-import java.io.OutputStream;
-import java.net.InetSocketAddress;
-import java.net.InetAddress;
-import java.net.URI;
-import com.sun.net.httpserver.HttpExchange;
-import com.sun.net.httpserver.HttpHandler;
-import com.sun.net.httpserver.HttpServer;  
+$ grep -n ^that technical/government/Env_Prot_Agen/bill.txt
+112:that is subject to emissionreduction requirements or limitations
+177:that section;
+364:that is reported as a generating unit pursuant to Department of
+2082:that emissions limitation is not expressed on an annual basis, the
+2360:that producedelectricity for sale.
+2648:that the reassigned tonnage limitswill, in total, achieve the same
+2884:that for the purposes of applying this subsection to any such unit,
+4128:that the auctioned allowances shall be allocated and sold on the
+4277:that produced or produces electricity for sale during 2001 or any
+4696:that does not exceed 250,000 allowances; and
+4822:that section;
+5163:that permits the unit during the demonstration period
+5239:that produced or produces electricity for sale during 2001 or any
+5582:that the Administrator administers in a State's applicable
+5775:that an owner or operator has either undertaken a continuous
+5799:that is not a new affected unit.
+5979:that the technology is equivalent in terms of mercury capture to
+6583:that the following requirements are met prior to the commencement
+6854:that a transitional area has not attained the standard, the area
+6973:that: 
 ```
 
 **Alternation** - found using `man grep`
