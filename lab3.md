@@ -78,4 +78,6 @@ public class ArrayExamples {
         for(int i = 0; i < arr.length; i += 1) {
             arr[i] = newArray[i];
         }
+  }
+}
 ```
