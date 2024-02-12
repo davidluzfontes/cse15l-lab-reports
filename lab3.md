@@ -98,7 +98,7 @@ array `arr`. Then the loop can replace the elements in `arr` using the values fr
 This option shows you the line number for every match that you find. This is useful if you need to find the expression in a file, 
 such as to make and need to find where that mistake was made, or just want to go to 
 that place and read more about the context in which the word was used.
-```bash
+```
 $ grep -n that technical/biomed/cc2172.txt
 29:        particularly when 'injurious' ventilatory strategies that
 31:        ] . Experimental studies suggested that mechanical
@@ -120,7 +120,7 @@ $ grep -n that technical/biomed/cc2172.txt
 416:        vasculature. Nonetheless, the possibility that PEEP can`
 ```
 
-```bash
+```
 $ grep -n oxygen technical/biomed/cc3.txt
 6:        Aggressive methods of decreasing oxygen consumption,
 8:        patients with marginal oxygen delivery associated with
@@ -134,8 +134,9 @@ $ grep -n oxygen technical/biomed/cc3.txt
 
 **Bracket Expressions** found using `man grep`
 
+A bracket expression is a list of characters enclosed by [ and ] 
 
-```bash
+```
 $ grep [wxz] technical/biomed/1471-2334-3-13.txt
           Have any transfers been described between archaea
           bifunctional catalase-peroxidase is likely a transfer
