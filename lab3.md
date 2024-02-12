@@ -219,8 +219,7 @@ $ grep -n ^that technical/government/Env_Prot_Agen/bill.txt
 
 **Alternation** - found using `man grep`
 
-Two regular expressions may be joined by the operator |.
-`grep` then searches for any string matching either alternate expression. This is en extended regular expression*, so the tag `-E` should be used. If using basic regular expressions the | operator needs to be prefixed by \\. 
+Two regular expressions may be joined by the operator '|'. `grep` then searches for any string matching either alternate expression. This is en extended regular expression*, so the tag `-E` should be used. If using basic regular expressions the '|' operator needs to be prefixed by '\\'. 
 
 **learn more about expression types using `man grep`*
 
