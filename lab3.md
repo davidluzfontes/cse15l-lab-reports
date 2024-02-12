@@ -16,11 +16,11 @@ public class ArrayExamples {
 
 //Failed test
 public class ArrayTests {
-	@Test 
-	public void testReverseInPlace() {
-		int[] willFail = { 1, 2, 3 }; //Failiure inducing output
-		ArrayExamples.reverseInPlace(willFail);
-		assertArrayEquals(new int[]{ 3, 2, 1 }, willFail); 
-	}
+  @Test 
+  public void testReverseInPlace() {
+    int[] willFail = { 1, 2, 3 }; //Failiure inducing output
+    ArrayExamples.reverseInPlace(willFail);
+    assertArrayEquals(new int[]{ 3, 2, 1 }, willFail); 
+  }
 }
 ```
