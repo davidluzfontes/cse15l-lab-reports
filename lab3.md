@@ -134,46 +134,51 @@ $ grep -n oxygen technical/biomed/cc3.txt
 
 **Bracket Expressions** found using `man grep`
 
-A bracket expression is a list of characters enclosed by [ and ] 
+A bracket expression is a list of characters enclosed by [   and   ]. By using that that
+grep will look for any character in that expression. You can use a hyphen to search for a range of
+characters, such as [a-e] for [abcdefg] or [0-5] to [012345]. Its useful if you want to find all of the
+numbers in a file, or if you're looking for words with multiple spellings.
 
 ```
-$ grep [wxz] technical/biomed/1471-2334-3-13.txt
-          Have any transfers been described between archaea
-          bifunctional catalase-peroxidase is likely a transfer
-          factor, this enzyme has been implicated as a virulence
-          E. coli O157:H7 catalase-peroxidase
-          has been associated with enterohaemorrhagic hemolysin in
-          a variety of shiga-like toxin-producing
-          (verotoxin-producing)
-          correlation of the presence of the catalase-peroxidase in
-          How can we identify other genes likely to have been
-          virulence-associated. This subset will be the focus of
-          O157-specific plasmids that were previously sequenced [
-          32 ] from which some of the preliminary work [ 9 ]
-          described below was derived.
-          following criteria:
-          score > 95) to ORFs found in at least two archaeal
-          3) having few or no highly similar proteins (BLASTP
-          This search was facilitated by the Clusters of
-          worth considering as LGTs from archaea to pathogenic
-          bacteria. Table 1shows these ORFs with their location
-          and, if any information was available, a possible
-          generally associated with virulence, many genes, under
-          contribute to pathogenicity. There are examples in the
-          literature where both ABC transporters (in
-          Further testing of this hypothesis will require
-          although commonly employed [ 6 7 37 ] it is fraught with
-          wrote:
-            tree-based approach will become both more challenging
-            and more rewarding.
-          transfer as a major contributor of "new" virulence genes
-          many ways, the most unlikely source for virulence genes.
-          virulence genes will be expanded to include virtually all
-          At the same time, however, it would allow us to move from
-          a descriptive, reactionary view of infectious disease
-          towards a predictive science of infectious disease. It
-          would be dramatic evidence of what some microbiologists
-          the emergence of new bacterial pathogens.
+$ grep wom[ea]n technical/biomed/1471-2407-1-13.txt
+        of developing corpus uterine cancer. In addition, a woman
+        these women should be removed from the at-risk population
+          women's health issues, such as pregnancy and
+          hysterectomy. A question that asks whether a woman has
+          woman's current age, indicates the prevalent proportion
+          of women who have had a hysterectomy by a certain
+          the population so that it reflects women at risk of
+          developing the disease. We assume that a woman is at risk
+          women who are diagnosed with corpus uterine cancer are
+          age-specific number of hysterectomies plus women
+          the age-specific rate of women not at risk of corpus
+          uterine cancer divided by the age-specific rate of women
+          prevalent proportion of women not at risk of corpus
+        1995-97 are highest, particularly for women aged 45 through
+        the denominator of the rate calculation including women who
+        women ages 75-79. In this age group, the uncorrected rate
+        Corresponding percentages women free of the disease at age
+        Utah over the next 10 years among women aged
+        with cancer of the corpus uterine is greatest for women
+        of women alive that have undergone a hysterectomy increases
+        procedure, over 35% of women in the United States received
+        relevant to a woman already aged to mid-life. However,
+        reflect those women at risk. The two methods developed in
+```
+
+```
+$ grep " [a-z]en"  technical/biomed/1471-2288-2-4.txt
+        genetic changes have been proposed for cancer early
+        The true positive rate (TPR), or the test sensitivity, is
+        mortality endpoint, mammography is generally considered an
+        TPR (Table 2) and generate a receiver-operating
+        better the test performance. As mentioned previously,
+        To more generally compare performance of a combination
+        farthest to the left, which is generally all that would
+        model that is overly sensitive to chance fluctuations in
+        into ten samples each with 10% of the data, (ii) one of the
+        (iv) an average is taken of the statistic over all ten 10%
+        split-sample approach tended to underestimate performance,
 ```
 
 
