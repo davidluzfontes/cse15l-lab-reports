@@ -2,7 +2,7 @@
 
 ## Part 1 - Bugs
 
-
+ 
 
 **Code being tested**
 ```java
@@ -15,7 +15,7 @@ public class ArrayExamples {
 }
 ```
 
-
+ 
 
 **Failure-inducing input: { 1, 2, 3 }**
 ```java
@@ -30,7 +30,7 @@ public class ArrayTests {
 }
 ```
 
-
+ 
 
 **Input that doesn't induce a failure: { 1, 2, 1 }**
 ```java
