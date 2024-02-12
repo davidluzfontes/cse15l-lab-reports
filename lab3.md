@@ -132,4 +132,47 @@ $ grep -n oxygen technical/biomed/cc3.txt
 ```
 
 
-[[](https://www.digitalocean.com/community/tutorials/using-grep-regular-expressions-to-search-for-text-patterns-in-linux)https://www.digitalocean.com/community/tutorials/using-grep-regular-expressions-to-search-for-text-patterns-in-linux]
+**Bracket Expressions** found using `man grep`
+
+
+```bash
+$ grep [wxz] technical/biomed/1471-2334-3-13.txt
+          Have any transfers been described between archaea
+          bifunctional catalase-peroxidase is likely a transfer
+          factor, this enzyme has been implicated as a virulence
+          E. coli O157:H7 catalase-peroxidase
+          has been associated with enterohaemorrhagic hemolysin in
+          a variety of shiga-like toxin-producing
+          (verotoxin-producing)
+          correlation of the presence of the catalase-peroxidase in
+          How can we identify other genes likely to have been
+          virulence-associated. This subset will be the focus of
+          O157-specific plasmids that were previously sequenced [
+          32 ] from which some of the preliminary work [ 9 ]
+          described below was derived.
+          following criteria:
+          score > 95) to ORFs found in at least two archaeal
+          3) having few or no highly similar proteins (BLASTP
+          This search was facilitated by the Clusters of
+          worth considering as LGTs from archaea to pathogenic
+          bacteria. Table 1shows these ORFs with their location
+          and, if any information was available, a possible
+          generally associated with virulence, many genes, under
+          contribute to pathogenicity. There are examples in the
+          literature where both ABC transporters (in
+          Further testing of this hypothesis will require
+          although commonly employed [ 6 7 37 ] it is fraught with
+          wrote:
+            tree-based approach will become both more challenging
+            and more rewarding.
+          transfer as a major contributor of "new" virulence genes
+          many ways, the most unlikely source for virulence genes.
+          virulence genes will be expanded to include virtually all
+          At the same time, however, it would allow us to move from
+          a descriptive, reactionary view of infectious disease
+          towards a predictive science of infectious disease. It
+          would be dramatic evidence of what some microbiologists
+          the emergence of new bacterial pathogens.
+```
+
+
