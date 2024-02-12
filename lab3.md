@@ -2,8 +2,7 @@
 
 ## Part 1 - Bugs
 
- 
-
+<br>
 **Code being tested**
 ```java
 public class ArrayExamples {
@@ -16,7 +15,7 @@ public class ArrayExamples {
 ```
 
  
-
+<br>
 **Failure-inducing input: { 1, 2, 3 }**
 ```java
 public class ArrayTests {
