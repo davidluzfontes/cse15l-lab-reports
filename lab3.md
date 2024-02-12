@@ -189,8 +189,20 @@ Two regular expressions may be joined by the operator |.
 The resulting regular expression matches any stringmatching either alternate expression.
  *If using basic regular expressions the | operator needs to be prefixed by \.
 
+
 ```
- $ grep -E 'oxygen|nitrogen|hyrdogen' technical/biomed/1471-2091-2-9.txt
+$ grep 'agent\|platypus' technical/biomed/1472-6947-3-8.txt
+          biomolecular features. If an agent were discovered that
+          to the same agent.
+          biological property allows us to infer that agents that
+          agents (chemical or biological) that induce precancers to
+            that heighten sensitivity to a causal agent, such as
+            regress when the causative agent is withdrawn (e.g.
+            example, the platypus has challenged animal
+```
+
+```
+$ grep -E 'oxygen|nitrogen|hydrogen' technical/biomed/1471-2091-2-9.txt
         double-bounded oxygen, an arrangement that is similar to
           equatorial nitrogen from an amino group and three
           equatorial oxygen ligands from carboxyl or phosphate
@@ -205,16 +217,11 @@ The resulting regular expression matches any stringmatching either alternate exp
           groups and another two equatorial oxygen from two water
         from aspartate or glutamate, and two oxygens from the
         hydroxyl group and three oxygens derived from carboxyl
+        water molecule through hydrogen bond in the conformation
+        two water molecules that are hydrogen bonded to other
           oxygen was removed from solutions by purging with dry
           nitrogen gas. Stock vanadyl and nucleotide solution were
           immediately frozen in liquid nitrogen, and stored in
           liquid nitrogen before using.
           standard cavity and a liquid nitrogen flow cryostat
 ```
-
-
-
-
-
-
-
