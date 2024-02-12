@@ -70,14 +70,14 @@ After
 ```java
 public class ArrayExamples {
 
-    static void reverseInPlace(int[] arr) {
-        int[] newArray = new int[arr.length];
-        for(int i = 0; i < arr.length; i += 1) {
-            newArray[i] = arr[arr.length - i - 1];
-        }
-        for(int i = 0; i < arr.length; i += 1) {
-            arr[i] = newArray[i];
-        }
+  static void reverseInPlace(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[i] = arr[arr.length - i - 1];
+    }
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[i];
+    }
   }
 }
 ```
