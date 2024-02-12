@@ -181,4 +181,40 @@ $ grep " [a-z]en"  technical/biomed/1471-2288-2-4.txt
         split-sample approach tended to underestimate performance,
 ```
 
+**Extended Regular Expressions** found using `man grep`
+
+**Alternation** found using `man grep`
+
+Two regular expressions may be joined by the operator |.
+The resulting regular expression matches any stringmatching either alternate expression.
+ *If using basic regular expressions the | operator needs to be prefixed by \.
+
+```
+ $ grep -E 'oxygen|nitrogen|hyrdogen' technical/biomed/1471-2091-2-9.txt
+        double-bounded oxygen, an arrangement that is similar to
+          equatorial nitrogen from an amino group and three
+          equatorial oxygen ligands from carboxyl or phosphate
+          set includes two equatorial oxygen from two water
+          molecules, one equatorial oxygen from a carboxyl group or
+          phosphate, and one equatorial nitrogen from an amino
+          group. The other set contains one equatorial oxygen from
+          water and three equatorial oxygens from carboxyl groups
+          is one equatorial oxygen from a hydroxyl group and three
+          equatorial oxygens from carboxyl groups or phosphate.
+          according to eq 1 is two equatorial oxygen from hydroxyl
+          groups and another two equatorial oxygen from two water
+        from aspartate or glutamate, and two oxygens from the
+        hydroxyl group and three oxygens derived from carboxyl
+          oxygen was removed from solutions by purging with dry
+          nitrogen gas. Stock vanadyl and nucleotide solution were
+          immediately frozen in liquid nitrogen, and stored in
+          liquid nitrogen before using.
+          standard cavity and a liquid nitrogen flow cryostat
+```
+
+
+
+
+
+
 
