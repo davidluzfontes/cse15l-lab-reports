@@ -17,7 +17,7 @@ I typed `c s 1 5 l` to start going into my workspace for this course, then, pres
 ![image](https://github.com/davidluzfontes/cse15l-lab-reports/assets/149021334/c0eb8dd7-7471-470e-809a-4b6fb3bc1095)
 Keys pressed: `g i t <space> c l o n e <space> <ctrl>+v <enter>`. 
 
-I typed the<br>`git clone ` command because I want to clone a git repository. Then, I pressed `<ctrl>+v` to paste the ssh URL of my private fork into the terminal, and `<enter>` to run it. Due to my GitHub ssh key, I was able to clone the private repository into my working directory.
+I typed the `git clone ` command because I want to clone a git repository. Then, I pressed `<ctrl>+v` to paste the ssh URL of my private fork into the terminal, and `<enter>` to run it. Due to my GitHub ssh key, I was able to clone the private repository into my working directory.
 
 <br>
 
