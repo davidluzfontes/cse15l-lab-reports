@@ -77,4 +77,20 @@ Keys pressed: `<up> <up> <enter> `.
 
 I pressed `<up> <up>` so I could find the `bash test.sh` command, which was 2nd in my bash history, and pressed `<enter>` to run it. This command reran the commands `test.sh` file, using the fixed `ListExamples.java` file.
 
+  
+
+![image](https://github.com/davidluzfontes/cse15l-lab-reports/assets/149021334/f3694ea6-e6eb-439d-9b61-2704a39c5711)
+Keys pressed: `g i t <space> c o m m i t <space> - a <space> - m <space> " f i x " <enter>`.
+
+I used the `git commit ` command to commit all of the changes I made to the git branch I am working on. I added the `-a` flag to add my changes to the list of changes to commit, equivalent to using `git add .` and the `-m` file to add a message to the commit, `fix`. Then I pressed `<enter>` to run it.
+
+  
+
+![image](https://github.com/davidluzfontes/cse15l-lab-reports/assets/149021334/8783ff28-2830-4f19-88dd-bafb8c975873)
+Keys pressed: `g i t <space> p u s h<enter>`
+
+I used the `git push` command to push all of my changes to my private GitHub fork. Then I pressed `<enter>` to run it.
+
+
+
 
