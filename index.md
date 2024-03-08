@@ -8,6 +8,8 @@
 
 **[Lab 4](https://davidluzfontes.github.io/cse15l-lab-reports/lab4.html)**
 
+**[Lab 5](https://davidluzfontes.github.io/cse15l-lab-reports/lab5.html)**
+
 
 ---
 [Testing out markdown](https://davidluzfontes.github.io/cse15l-lab-reports/bindex.html)
