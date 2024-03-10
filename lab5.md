@@ -1,4 +1,4 @@
-# Lab Report 5 - Putting it All Together
+![image](https://github.com/davidluzfontes/cse15l-lab-reports/assets/149021334/58637195-4e0b-4aab-a52e-e95adbf530ed)# Lab Report 5 - Putting it All Together
 
 ## Part 1 - Debugging Scenario
 
@@ -45,16 +45,65 @@ Tests run: 2,  Failures: 1
 ```
 
 
-<\br>
+<br>
 
 **TA**
 Instead of running it with the java command, try it with the java debugger so you can see exactly what went wrong
 ```
 jdb -classpath .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples
 ```
+After that, type `> stop at TestListExamples:<LINE NUMBER>` (substitute <LINE NUMBER> for the number of the line with the failing assert),
+then, use `> run` to run the program until that line.
+
+From there, you can use `print <VARIABLE>` to see the value of the variables at that point. You can also use the stop command to stop at different lines and compare the results. 
 
 
+**Student**
+I see! `result1` is being updated when `result2` is created, it must be an issue with the creation of new objects in my method
+![image](https://github.com/davidluzfontes/cse15l-lab-reports/assets/149021334/125cfbaf-3993-4bac-bb2e-f1fd7db23c59)
+![image](https://github.com/davidluzfontes/cse15l-lab-reports/assets/149021334/c94c2106-460e-43e7-b746-935e2103596e)
+Thank you so much :)
 
+I changed this:
+![image](https://github.com/davidluzfontes/cse15l-lab-reports/assets/149021334/f553904d-fd40-4e49-94a6-829b862c5bcf)
+
+
+To this:
+![image](https://github.com/davidluzfontes/cse15l-lab-reports/assets/149021334/fa2978d2-a541-4423-b7a9-f43207982ae9)
+
+
+And it worked!
+![image](https://github.com/davidluzfontes/cse15l-lab-reports/assets/149021334/6bbc4f89-fca1-4c3f-a95e-df238752f494)
+
+
+<br>
+
+---
+### File structure
+![image](https://github.com/davidluzfontes/cse15l-lab-reports/assets/149021334/3af779a5-70fc-4a73-bb4b-86ebe2b5caf2)
+![image](https://github.com/davidluzfontes/cse15l-lab-reports/assets/149021334/949a5935-ba45-4426-9411-1767fd20d9e6)
+
+
+### Files
+
+##### ListExamples.java
+Before
+![image](https://github.com/davidluzfontes/cse15l-lab-reports/assets/149021334/f553904d-fd40-4e49-94a6-829b862c5bcf)
+After
+![image](https://github.com/davidluzfontes/cse15l-lab-reports/assets/149021334/fa2978d2-a541-4423-b7a9-f43207982ae9)
+
+##### TestListExamples.java
+![image](https://github.com/davidluzfontes/cse15l-lab-reports/assets/149021334/e02a056a-6cf3-4ae3-8229-fd78989c917f)
+
+##### test.sh
+![image](https://github.com/davidluzfontes/cse15l-lab-reports/assets/149021334/4156f9bc-e4f9-4eb4-8268-f29b608cd662)
+
+Files in `lib` are the default `.jar` files for JUnit. `.class` files are resultant from running `test.sh`
+
+
+### Bug
+
+![image](https://github.com/davidluzfontes/cse15l-lab-reports/assets/149021334/33a4f4c4-7877-4525-bb57-5396f474fb93)
 
 
 
