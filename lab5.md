@@ -2,9 +2,8 @@
 
 ## Part 1 - Debugging Scenario
 
-1. 
-> Hi, my test case for finding all of the "a"s in a list isn't working.
-> There is only one "a", but it says there are 2
+`student`
+ Hi, my test case for finding all of the "a"s in a list isn't working.There is only one "a", but it says there are 2
 
 ```java
 @Test
@@ -22,7 +21,12 @@ public void testFilter2() {
    assertEquals(expect2, result2);
 }
 ```
-
+I ran my `test.sh` file
+```bash
+javac -g -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
+java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples
+```
+This is the result
 ```
 JUnit version 4.13.2
 .E.
@@ -38,8 +42,12 @@ java.lang.AssertionError: expected:<[a]> but was:<[a, a]>
 
 FAILURES!!!
 Tests run: 2,  Failures: 1
-
 ```
+
+
+
+
+
 
 
 ## Part 2 – Reflection
