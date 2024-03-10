@@ -86,16 +86,16 @@ And it worked!
 
 ### Files
 
-##### ListExamples.java
+**ListExamples.java**
 Before
 ![image](https://github.com/davidluzfontes/cse15l-lab-reports/assets/149021334/f553904d-fd40-4e49-94a6-829b862c5bcf)
 After
 ![image](https://github.com/davidluzfontes/cse15l-lab-reports/assets/149021334/fa2978d2-a541-4423-b7a9-f43207982ae9)
 
-##### TestListExamples.java
+**TestListExamples.java**
 ![image](https://github.com/davidluzfontes/cse15l-lab-reports/assets/149021334/e02a056a-6cf3-4ae3-8229-fd78989c917f)
 
-##### test.sh
+**test.sh**
 ![image](https://github.com/davidluzfontes/cse15l-lab-reports/assets/149021334/4156f9bc-e4f9-4eb4-8268-f29b608cd662)
 
 Files in `lib` are the default `.jar` files for JUnit. `.class` files are resultant from running `test.sh`
@@ -103,8 +103,10 @@ Files in `lib` are the default `.jar` files for JUnit. `.class` files are result
 
 ### Bug
 
+This induced the bug when the program was run using `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples`: 
 ![image](https://github.com/davidluzfontes/cse15l-lab-reports/assets/149021334/33a4f4c4-7877-4525-bb57-5396f474fb93)
-
+The ArrayList `result` was part of the class, and not being created during the method. Therefore, the method didn't return a reference
+to a new ArrayList, but to `result`. When the line for `result2` was run, it updated `result`, subsequently updating `result1`. I fixed it by creating and returning a new object when the method is called
 
 
 ## Part 2 – Reflection
