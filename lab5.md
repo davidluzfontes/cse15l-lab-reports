@@ -2,7 +2,7 @@
 
 ## Part 1 - Debugging Scenario
 
-`student`
+**Student**
  Hi, my test case for finding all of the "a"s in a list isn't working.There is only one "a", but it says there are 2
 
 ```java
@@ -44,6 +44,12 @@ FAILURES!!!
 Tests run: 2,  Failures: 1
 ```
 
+
+**TA**
+Instead of running it with the java command, try it with the java debugger so you can see exactly what went wrong
+```
+jdb -classpath .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples
+```
 
 
 
