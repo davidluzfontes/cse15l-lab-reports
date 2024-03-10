@@ -1,4 +1,4 @@
-![image](https://github.com/davidluzfontes/cse15l-lab-reports/assets/149021334/58637195-4e0b-4aab-a52e-e95adbf530ed)# Lab Report 5 - Putting it All Together
+# Lab Report 5 - Putting it All Together
 
 ## Part 1 - Debugging Scenario
 
